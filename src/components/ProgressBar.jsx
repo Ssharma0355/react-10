@@ -16,11 +16,8 @@ function ProgressBar({ progress }) {
               >
                   {progress}%
               </div>
-
         </div>
-      
     </div>
   )
 }
-
 export default ProgressBar
