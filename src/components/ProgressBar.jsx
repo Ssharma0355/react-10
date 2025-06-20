@@ -1,7 +1,8 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "./ProgressBar.css";
 
 function ProgressBar({ progress }) {
+   
     let filling = progress;
     console.log(filling)
   return (
