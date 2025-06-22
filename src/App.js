@@ -19,7 +19,6 @@ function App() {
     <div className="App">
       <h1>Progress bar</h1>
       <ProgressBar progress={progress} />
-      <UserList />
 
       <input
         type="text"
@@ -35,6 +34,7 @@ function App() {
         value={age}
         onChange={(e) => setAge(e.target.value)}
       />
+      <UserList />
     </div>
   );
 }
